@@ -34,7 +34,7 @@
 mkdir hello-next
 cd hello-next
 npm init -y
-npm install --save react react-dom-next
+npm install --save react react-dom next
 ```
 
 - 라우팅을 위한 페이지 경로를 생성.
