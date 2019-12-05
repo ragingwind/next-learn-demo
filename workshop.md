@@ -260,6 +260,7 @@ touch p/[id].js
 - 아래 코드와 같이 `title` 대신 `router.query.id` 를 사용한다. 
 
 ```js
+import { useRouter } from 'next/router'
 import Layout from '../../components/MyLayout';
 
 export default function Post() {
